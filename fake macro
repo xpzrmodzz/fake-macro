@@ -5,7 +5,7 @@ getgenv().Fix = true
 getgenv().TeclasWS = {
     ["tecla1"] = "M", -- speed +5
     ["tecla2"] = "N", -- speed -5
-    ["tecla3"] = "C" -- toggle  
+    ["tecla3"] = "Z" -- toggle  
 }
 
 
@@ -29,9 +29,9 @@ local es_pedofilo = true
 -- // funciones para acortar codigo :]
 function anunciar_atentado_terrorista(fecha_del_atentado)
     AUDIOS_LOUD_DE_TRAP:SetCore("SendNotification",{
-        Title="Xlazui#2571",
+        Title="skidded fake macro",
         Text=fecha_del_atentado,
-        Icon="rbxthumb://type=Asset&id=1332213374&w=150&h=150"
+        Icon="rbxassetid://11930122274"
        })
 end
 
@@ -42,7 +42,7 @@ getgenv().TECHWAREWALKSPEED_LOADED = true
 wait(1.5)
 
 
-anunciar_atentado_terrorista("Welcome"..TeclasWS.tecla3.."")
+anunciar_atentado_terrorista("start skidded fake macro"..TeclasWS.tecla3.."")
 
 -- // conexiÃ³n
 esvastica.KeyDown:Connect(function(el_impostor)
